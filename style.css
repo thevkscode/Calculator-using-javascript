@@ -1,0 +1,110 @@
+body>div {
+    height: 681px;
+    width: inherit;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: center;
+}
+
+#calculator-box {
+    height: 580px;
+    width: 400px;
+    background-color: rgb(217, 214, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#title-div {
+    height: 50px;
+    width: 385px;
+    background-color: black;
+    align-items: center;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+#title-div p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    /* align-items: center; */
+}
+
+#output-div {
+    background-color: white;
+    height: 100px;
+    width: 385px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#display {
+    font-size: 30px;
+
+}
+
+#input-box {
+    background-color: white;
+    height: 300px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-row {
+    height: 75px;
+    width: 390px;
+    background-color: rgb(217, 214, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 5px; */
+}
+
+.input {
+    height: 70px;
+    /* width: 96.25px; */
+    width: 90px;
+    background-color: white;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: none;
+    margin-top: 5px;
+}
+
+#val0 {
+    width: 185px;
+    ;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.input:hover {
+    background-color: rgb(255, 222, 222);
+}
+
+.red:hover {
+    background-color: rgb(247, 97, 97);
+}
